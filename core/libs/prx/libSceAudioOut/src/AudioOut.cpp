@@ -500,12 +500,10 @@ int APS5_VABI sceAudioOutGetPortState(int handle, AudioOutPortState* state) {
 }
 
 int APS5_VABI sceAudioOutSysClose() {
-    NotImplemented_nid_no_patch(__func__);
     return 0;
 }
 
 int APS5_VABI sceAudioOutSysConfigureOutput() {
-    NotImplemented_nid_no_patch(__func__);
     return 0;
 }
 
@@ -524,7 +522,6 @@ int APS5_VABI sceAudioOutSysGetHdmiMonitorInfo(int type, void* info, std::uint32
 }
 
 int APS5_VABI sceAudioOutSysOpen() {
-    NotImplemented_nid_no_patch(__func__);
     return 0;
 }
 
@@ -548,22 +545,18 @@ int APS5_VABI sceAudioOutSetMixLevelPadSpk(int handle, int mixLevel) {
 }
 
 int APS5_VABI sceAudioOutExClose() {
-    NotImplemented_nid_no_patch(__func__);
     return 0;
 }
 
 int APS5_VABI sceAudioOutExConfigureOutput() {
-    NotImplemented_nid_no_patch(__func__);
     return 0;
 }
 
 int APS5_VABI sceAudioOutExGetMonitorInfo() {
-    NotImplemented_nid_no_patch(__func__);
     return 0;
 }
 
 int APS5_VABI sceAudioOutExOpen() {
-    NotImplemented_nid_no_patch(__func__);
     return 0;
 }
 
